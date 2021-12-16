@@ -1,0 +1,73 @@
+NOTES.md
+.streamlit-venv
+celerybeat-schedule*
+NEXT_CHANGELOG.md
+lakey_api/static/*
+.ipynb_checkpoints
+env_private*.sh
+env_tests.sh
+*.py[cod]
+lakey_api/STATIC
+tmp
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+src
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+coverage_html
+.coverage
+.tox
+.research
+nosetests.xml
+coverage.xml
+cover
+pep8.txt
+sphinx-output
+
+# Translations
+*.mo
+
+# Default dev virtual environment
+.venv*
+.cache
+.pytest_cache
+.DS_Store
+
+# Settings overrides
+settings_local.py
+
+# docs
+docs/build*
+
+# FE stuff
+node_modules
+bower_components
+
+# dev files
+.todos
+
+
+
+### deployment
+deploy/kubernetes/*/app/
+deploy/kubernetes/secret-*.yml
+.dl*-szczypiorek-enc-key
+DOCKER_IMAGE_VERSION_LOCK
